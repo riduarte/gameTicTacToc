@@ -10,6 +10,7 @@ import "../styles/index.scss";
 
 //import your own components
 import { Home } from "./component/home.js";
+import { Modal } from "./component/modal.js";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Modal />, document.querySelector("#app"));
